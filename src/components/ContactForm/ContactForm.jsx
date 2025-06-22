@@ -4,8 +4,8 @@ import { useRef } from "react";
 import * as Yup from "yup";
 import css from "./ContactForm.module.css";
 import { useDispatch, useSelector } from "react-redux";
-import { selectContacts } from "../../redux/contacts/contactsSlice";
-import { addContacts } from "../../redux/contacts/contactsOps";
+import { selectContacts } from "../../redux/contacts/selectors";
+import { addContacts } from "../../redux/contacts/operations";
 import toast from "react-hot-toast";
 
 function ContactForm() {

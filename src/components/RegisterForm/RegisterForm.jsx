@@ -5,7 +5,7 @@ import * as Yup from "yup";
 import { useId, useState } from "react";
 import css from "./RegisterForm.module.css";
 import toast from "react-hot-toast";
-import { FaEye, FaEyeSlash } from "react-icons/fa"; // 👈 не забудь цей імпорт
+import { FaEye, FaEyeSlash } from "react-icons/fa";
 
 const RegisterSchema = Yup.object().shape({
   name: Yup.string()

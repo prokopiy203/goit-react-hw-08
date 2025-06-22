@@ -3,7 +3,7 @@ import css from "./Contact.module.css";
 import {
   deleteContacts,
   updateContacts,
-} from "../../redux/contacts/contactsOps";
+} from "../../redux/contacts/operations";
 import Swal from "sweetalert2";
 import { VscEdit, VscTrash } from "react-icons/vsc";
 
