@@ -1,0 +1,13 @@
+.inputBox {
+  display: flex;
+  justify-content: center;
+}
+
+.input {
+  border-radius: 8px;
+  width: 400px;
+  height: 40px;
+  padding: 8px;
+  outline: none;
+  border: 1px solid black;
+}

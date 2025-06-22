@@ -1,0 +1,35 @@
+.box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 400px;
+  font-size: 20px;
+  padding: 8px;
+  color: rgb(0, 0, 0);
+  background-color: azure;
+  border-radius: 12px;
+  border: solid 1px rgb(14, 14, 14);
+  margin-top: 10px;
+}
+.wrapper {
+  display: flex;
+
+  flex-direction: column;
+}
+
+.boxButton {
+  display: flex;
+  gap: 8px;
+}
+
+.delete {
+  background-color: rgb(238, 20, 20);
+}
+
+.update {
+  background-color: rgb(3, 244, 164);
+}
+
+.delete:hover {
+  background-color: brown;
+}
