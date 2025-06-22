@@ -94,7 +94,7 @@ export const RegisterForm = () => {
           />
         </div>
 
-        <button className={css.button} type="submit">
+        <button className={css.buttonSubmit} type="submit">
           Register
         </button>
       </Form>

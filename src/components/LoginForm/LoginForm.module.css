@@ -47,7 +47,7 @@ input:focus {
   outline: none;
 }
 
-button {
+.button {
   padding: 10px;
   background-color: #007bff;
   color: white;
@@ -58,6 +58,6 @@ button {
   transition: background-color 0.2s ease;
 }
 
-button:hover {
+.button:hover {
   background-color: #0056b3;
 }

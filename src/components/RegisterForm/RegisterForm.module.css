@@ -36,7 +36,7 @@ input:focus {
   outline: none;
 }
 
-.button {
+.buttonSubmit {
   padding: 10px;
   background-color: #007bff;
   color: white;
@@ -47,7 +47,7 @@ input:focus {
   transition: background-color 0.2s ease;
 }
 
-.button:hover {
+.buttonSubmit:hover {
   background-color: #0056b3;
 }
 
